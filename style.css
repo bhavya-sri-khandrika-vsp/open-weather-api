@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tit{
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.tit1{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*Add hovers later*/
+
+
+/*Input and output styling*/
+
+.input{
+    text-align: center;
+    margin: 100px 0 ;
+}
+
+input[type="text"]{
+    height: 50px;
+    width: 300px;
+    background-color: rgb(206, 239, 205);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 10px ;
+    color: blue;
+}
+
+.button{
+    margin-top: 30px;
+    height: 50px;
+    width: 100px;
+    background-color: rgb(243, 228, 242);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.display{
+    background-color: aquamarine;
+    text-align: center;
+    font-size: 30px;
+}
+
+#myImg{
+
+    margin-left: 20%;
+   border: 5px solid #e32e05;
+}
+
+
+
+

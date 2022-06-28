@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Open Weather API</title>
+    <link rel="stylesheet" href="style.css" />
+   
+  </head>
+  <body>
+    <div class="container">
+      <div class="img">
+        <img src="weather1.jpg" id="heropic" style="width: 100%" />
+      </div>
+      <div class="centered">
+        <h1 class="tit">Weather Check</h1>
+        <p class="tit1">Check today's weather for a happy outing😁😁</p>
+      </div>
+    </div>
+
+    <!--Information about city-->
+
+    <div class="input">
+      <input type="text" class="inputValue" placeholder="Enter the city name"/>
+      <button type="submit" class="button" onclick="startSearch()" style="background-color: #756489;">submit</button>
+    </div>
+
+    <div class="display">
+      <h1 class="name"></h1>
+      <p class="desc"></p>
+      <p class="temp"></p>
+      <p class="press"></p>
+      <p class="humd"></p>
+    </div>
+
+    <!-- <div class="disp">
+        <img id="myImg" src="https://cdn.sharechat.com/2f924b26-e309-47c9-b21a-27b510bff64e-349f0f28-f1cf-4dc1-ae5a-8fa40d266971.gif">
+    </div> -->
+    <script src="index.js"></script>
+  </body>
+</html>
